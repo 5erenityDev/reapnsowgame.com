@@ -1,5 +1,7 @@
 import * as React from 'react'
+
 import { Link, useStaticQuery, graphql } from 'gatsby'
+import { Analytics } from "@vercel/analytics/react"
 import {
   container,
   heading,
@@ -25,6 +27,7 @@ const Layout = ({ pageTitle, children }) => {
         <main>
             <h1 className={heading}>{pageTitle}</h1>
             {children}
+            <Analytics />
         </main>
         </div>
     )
