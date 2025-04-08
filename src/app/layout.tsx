@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/react"
+import Image from "next/image";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -67,8 +69,62 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <div className = "min-h-screen bg-linear-to-t from-[#3E6286] to-[#4D79A6]">
+          <div className = "flex-grow bg-night-2 mx-[0] lg:mx-[10vw]">
+            {children}
+
+          </div>
+        </div>
+        <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center drop-shadow-[0_1px_1px_rgba(97,61,37,1)] bg-[#39603F] w-screen h-40">
+            <a
+              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+              href="https://www.youtube.com/@reapnsowgame"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                aria-hidden
+                src="/file.svg"
+                alt="File icon"
+                width={16}
+                height={16}
+              />
+              YouTube
+            </a>
+            <a
+              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+              href="https://bsky.app/profile/reapnsowgame.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                aria-hidden
+                src="/window.svg"
+                alt="Window icon"
+                width={16}
+                height={16}
+              />
+              Bluesky
+            </a>
+            <a
+              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+              href="https://x.com/reapnsowgame"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                aria-hidden
+                src="/globe.svg"
+                alt="Globe icon"
+                width={16}
+                height={16}
+              />
+              Twitter
+            </a>
+          </footer>
+        <Analytics />
       </body>
+      
     </html>
   );
 }
