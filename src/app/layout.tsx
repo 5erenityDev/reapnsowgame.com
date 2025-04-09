@@ -69,8 +69,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className = "min-h-screen bg-[url(/images/site/background.png)] bg-[auto_5vw]">
-          <div className = "flex-grow bg-[#110A07]/99 mx-[0] lg:mx-[6vw]">
+        <div className = "min-h-screen bg-[url(/images/site/background.png)] bg-[auto_15vw]">
+          <div className = "flex-grow bg-[#110A07]/99 mx-[0] lg:mx-[5vw]">
             {children}
             <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center drop-shadow-[0_1px_1px_rgba(97,61,37,1)] bg-[#702623] h-20 ">
               <a
