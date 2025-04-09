@@ -72,53 +72,53 @@ export default function RootLayout({
         <div className = "min-h-screen bg-[url(/images/site/background.png)] bg-[auto_5vw]">
           <div className = "flex-grow bg-[#110A07]/99 mx-[0] lg:mx-[6vw]">
             {children}
-        <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center drop-shadow-[0_1px_1px_rgba(97,61,37,1)] bg-[#702623] h-20 ">
-            <a
-              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              href="https://www.youtube.com/@reapnsowgame"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                aria-hidden
-                src="/file.svg"
-                alt="File icon"
-                width={16}
-                height={16}
-              />
-              YouTube
-            </a>
-            <a
-              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              href="https://bsky.app/profile/reapnsowgame.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                aria-hidden
-                src="/window.svg"
-                alt="Window icon"
-                width={16}
-                height={16}
-              />
-              Bluesky
-            </a>
-            <a
-              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              href="https://x.com/reapnsowgame"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                aria-hidden
-                src="/globe.svg"
-                alt="Globe icon"
-                width={16}
-                height={16}
-              />
-              Twitter
-            </a>
-          </footer>
+            <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center drop-shadow-[0_1px_1px_rgba(97,61,37,1)] bg-[#702623] h-20 ">
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                href="https://www.youtube.com/@reapnsowgame"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  aria-hidden
+                  src="/file.svg"
+                  alt="File icon"
+                  width={16}
+                  height={16}
+                />
+                YouTube
+              </a>
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                href="https://bsky.app/profile/reapnsowgame.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  aria-hidden
+                  src="/window.svg"
+                  alt="Window icon"
+                  width={16}
+                  height={16}
+                />
+                Bluesky
+              </a>
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                href="https://x.com/reapnsowgame"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  aria-hidden
+                  src="/globe.svg"
+                  alt="Globe icon"
+                  width={16}
+                  height={16}
+                />
+                Twitter
+              </a>
+            </footer>
           </div>
         </div>
         <Analytics />
