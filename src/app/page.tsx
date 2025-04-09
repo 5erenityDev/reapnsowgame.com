@@ -10,7 +10,7 @@ export default function Home() {
               style={{ width: '50%', height: 'auto' , display: 'block', margin: 'auto'}}
               width={960}
               height={270}
-              
+              unoptimized
               priority
         />
         <br/>
