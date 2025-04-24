@@ -142,14 +142,29 @@ export default function RootLayout({
             <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center bg-[url(/images/site/footer-background.png)] bg-[auto_4vw] h-20 ">
               <a
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                href="https://www.tiktok.com/@reapnsowgame"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Image
+                  aria-hidden
+                  src="/images/site/icons/tiktok.png"
+                  alt="TikTok icon"
+                  width={16}
+                  height={16}
+                />
+                TikTok
+              </a>
+              <a
+                className="flex items-center gap-2 hover:underline hover:underline-offset-4"
                 href="https://www.youtube.com/@reapnsowgame"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <Image
                   aria-hidden
-                  src="/file.svg"
-                  alt="File icon"
+                  src="/images/site/icons/youtube.png"
+                  alt="YouTube icon"
                   width={16}
                   height={16}
                 />
@@ -163,8 +178,8 @@ export default function RootLayout({
               >
                 <Image
                   aria-hidden
-                  src="/window.svg"
-                  alt="Window icon"
+                  src="/images/site/icons/bluesky.png"
+                  alt="Bluesky icon"
                   width={16}
                   height={16}
                 />
@@ -178,8 +193,8 @@ export default function RootLayout({
               >
                 <Image
                   aria-hidden
-                  src="/globe.svg"
-                  alt="Globe icon"
+                  src="/images/site/icons/twitter.png"
+                  alt="Twitter icon"
                   width={16}
                   height={16}
                 />
