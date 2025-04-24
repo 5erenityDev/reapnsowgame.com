@@ -70,9 +70,76 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className = "min-h-screen bg-[url(/images/site/background.png)] bg-[auto_15vw]">
-          <div className = "flex-grow bg-[#110A07]/99 mx-[0] lg:mx-[5vw]">
-            {children}
-            <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center drop-shadow-[0_1px_1px_rgba(97,61,37,1)] bg-[#702623] h-20 ">
+          <div className = "flex-grow bg-[url(/images/site/inner-background.png)] bg-[auto_4vw] mx-[0] lg:mx-[5vw]">
+
+            <header className = "bg-[url(/images/site/background.png)] bg-[auto_15vw]">
+              <div className="">
+                <a href="/">
+                  <Image
+                    src="/images/site/ReapWhatYouSowLogo.png"
+                    alt="Button"
+                    style={{ width: '20%', height: 'auto' , display: 'inline-block', margin: 'auto'}}
+                    width={1280}
+                    height={640}
+                    
+                    priority
+                  />
+                </a>
+                <a href="/story">
+                  <Image
+                    src="/images/site/navigation/sign-story.png"
+                    alt="story"
+                    style={{ width: '20%', height: 'auto' , display: 'inline-block', margin: 'auto'}}
+                    width={1280}
+                    height={640}
+                    
+                    priority
+                  />
+                </a>
+                <a href="/gameplay">
+                  <Image
+                    src="/images/site/navigation/sign-gameplay.png"
+                    alt="gameplay"
+                    style={{ width: '20%', height: 'auto' , display: 'inline-block', margin: 'auto'}}
+                    width={1280}
+                    height={640}
+                    
+                    priority
+                  />
+                </a>
+                <a href="/characters">
+                  <Image
+                    src="/images/site/navigation/sign-characters.png"
+                    alt="characters"
+                    style={{ width: '20%', height: 'auto' , display: 'inline-block', margin: 'auto'}}
+                    width={1280}
+                    height={640}
+                    
+                    priority
+                  />
+                </a>
+                <a href="/support">
+                  <Image
+                    src="/images/site/navigation/sign-support.png"
+                    alt="Support"
+                    style={{ width: '20%', height: 'auto' , display: 'inline-block', margin: 'auto'}}
+                    width={1280}
+                    height={640}
+                    
+                    priority
+                  />
+                </a>
+              </div>
+            </header>
+
+            <br/>
+            <br/>
+            
+            <div className="min-h-screen text-[200%]">
+              {children}
+            </div>
+            
+            <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center bg-[url(/images/site/footer-background.png)] bg-[auto_4vw] h-20 ">
               <a
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
                 href="https://www.youtube.com/@reapnsowgame"
