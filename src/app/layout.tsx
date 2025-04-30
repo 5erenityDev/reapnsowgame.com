@@ -135,7 +135,7 @@ export default function RootLayout({
             <br/>
             <br/>
             
-            <div className="min-h-screen text-[200%]">
+            <div className="min-h-screen text-[80%] lg:text-[1rem] xl:text-[1vw] px-[200px]">
               {children}
             </div>
             

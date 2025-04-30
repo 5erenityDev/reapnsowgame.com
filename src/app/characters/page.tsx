@@ -5,7 +5,7 @@ const CharactersPage = () => {
     <div className="">
       <main className="text-center flex-col gap-[32px] items-center sm:items-start">
         <div className="">
-          <div className="inline-block mx-[10px]">
+          <div className="inline-block mx-[30px]">
             <p></p>
             <Image
               src="/images/renders/characters/Farmer.png"
@@ -16,7 +16,7 @@ const CharactersPage = () => {
             />
             <p>Farmer</p>
           </div>
-          <div className="inline-block mx-[10px]">
+          <div className="inline-block mx-[30px]">
             <p>Rana</p>
             <Image
               src="/images/renders/characters/Rana.png"
@@ -27,7 +27,7 @@ const CharactersPage = () => {
             />
             <p>Teacher's Assistant</p>
           </div>
-          <div className="inline-block mx-[10px]">
+          <div className="inline-block mx-[30px]">
             <p>Hampton</p>
             <Image
               src="/images/renders/characters/Hampton.png"
@@ -38,7 +38,7 @@ const CharactersPage = () => {
             />
             <p>The Mayor</p>
           </div>
-          <div className="inline-block mx-[10px]">
+          <div className="inline-block mx-[30px]">
             <p>Guinness</p>
             <Image
               src="/images/renders/characters/Guinness.png"
@@ -49,7 +49,7 @@ const CharactersPage = () => {
             />
             <p>Rambling Drunk</p>
           </div>
-          <div className="inline-block mx-[10px]">
+          <div className="inline-block mx-[30px]">
             <p>Iris</p>
             <Image
               src="/images/renders/characters/Iris.png"
@@ -60,7 +60,7 @@ const CharactersPage = () => {
             />
             <p>Goth</p>
           </div>
-          <div className="inline-block mx-[10px]">
+          <div className="inline-block mx-[30px]">
             <p>Edith</p>
             <Image
               src="/images/renders/characters/Edith.png"
@@ -71,7 +71,18 @@ const CharactersPage = () => {
             />
             <p>Farmer's Market Owner</p>
           </div>
-          <div className="inline-block mx-[10px]">
+          <div className="inline-block mx-[30px]">
+            <p>Reuben</p>
+            <Image
+              src="/images/renders/characters/Reuben.png"
+              alt="Reuben Image"
+              style={{ width: '4vw', height: 'auto' , margin: 'auto'}}
+              width={320}
+              height={480}
+            />
+            <p>Taxidermist</p>
+          </div>
+          <div className="inline-block mx-[30px]">
             <p>Dog</p>
             <Image
               src="/images/renders/characters/Dog.png"
@@ -94,7 +105,6 @@ const CharactersPage = () => {
             <li>Father Lawrence - Priest</li>
             <li>Caspian - Fisherman</li>
             <li>Vivian - Doctor</li>
-            <li>Reuben - Taxedermist</li>
             <li>Dante - Iris's Brother</li>
             <li>Mary - Iris's Mom</li>
             <li>Richard - Iris's Dad</li>
